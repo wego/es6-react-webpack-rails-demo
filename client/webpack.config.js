@@ -14,4 +14,5 @@ module.exports = {
   resolve: {
     extensions: ['', '.jsx', '.js'],
   },
+  plugins: [],
 };

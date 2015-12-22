@@ -1,11 +1,11 @@
 const config = require('./webpack.config');
 const webpack = require('webpack');
 
-config.entry = ['./clientGlobal.js', 'react-dom', 'react'];
+config.entry = ['./serverGlobal.js', 'react-dom/server', 'react'];
 
 config.output = {
   path: '../app/assets/javascripts/generated',
-  filename: 'client-bundle.js',
+  filename: 'server-bundle.js',
 };
 
 config.plugins.push(

@@ -53,7 +53,7 @@
 /* 1 */
 /***/ function(module, exports, __webpack_require__) {
 
-	'use strict';
+	/* WEBPACK VAR INJECTION */(function(global) {'use strict';
 
 	var _CommentBox = __webpack_require__(2);
 
@@ -61,7 +61,8 @@
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	window.CommentBox = _CommentBox2.default;
+	global.CommentBox = _CommentBox2.default;
+	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ },
 /* 2 */
@@ -21230,7 +21231,7 @@
 /* 165 */
 /***/ function(module, exports, __webpack_require__) {
 
-	/* WEBPACK VAR INJECTION */(function(global) {module.exports = global["ReactDOM"] = __webpack_require__(166);
+	/* WEBPACK VAR INJECTION */(function(global) {module.exports = global["ReactDOMServer"] = __webpack_require__(166);
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ },
@@ -21239,7 +21240,7 @@
 
 	'use strict';
 
-	module.exports = __webpack_require__(6);
+	module.exports = __webpack_require__(151);
 
 
 /***/ }

@@ -6,7 +6,8 @@
   "scripts": {
     "eslint": "./node_modules/.bin/eslint .; exit 0",
     "start": "./node_modules/.bin/webpack-dev-server",
-    "build:client": "NODE_ENV=production ./node_modules/.bin/webpack -p --config webpack.client.rails.config.js"
+    "build:client": "NODE_ENV=production ./node_modules/.bin/webpack --config webpack.client.rails.config.js",
+    "build:server": "NODE_ENV=production ./node_modules/.bin/webpack --config webpack.server.rails.config.js"
   },
   "engines": {
     "node": "5.3.0",
